@@ -1,0 +1,6 @@
+openapi: 3.0.0
+info:
+  title: My Service test68
+  description: This is my coddol service.
+  x-cortex-tag: test68
+  x-cortex-type: service
