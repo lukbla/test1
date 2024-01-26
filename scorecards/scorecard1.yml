@@ -1,0 +1,9 @@
+tag: my-scorecard-2
+name: My Scorecar 2d
+  description: a string
+  draft: false
+  rules:
+    - title: Has a runbook
+      expression: runbooks.count > 1
+      weight: 25
+
