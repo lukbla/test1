@@ -1,9 +1,0 @@
-tag: my-scorecard
-name: My Scorecard
-  description: a string
-  draft: false
-  rules:
-    - title: Has a runbook
-      expression: runbooks.count > 0
-      weight: 25
-
