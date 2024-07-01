@@ -1,0 +1,6 @@
+openapi: 3.0.0
+info:
+  title: resouerce new My Service test10
+  description: resource new This is my coddol service.
+  x-cortex-tag: new-resource-2-s3 
+  x-cortex-type: s3 
