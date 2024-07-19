@@ -1,0 +1,6 @@
+openapi: 3.0.0
+info:
+  title: My Service cortex-check 
+  description: This is my coddol service.
+  x-cortex-tag: cortex-check 
+  x-cortex-type: service
