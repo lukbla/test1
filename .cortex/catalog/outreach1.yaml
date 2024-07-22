@@ -57,7 +57,7 @@ info:
     reporting_team: fnd-ads
     lintroller: gold
   x-cortex-groups:
-    - lifecycle: public_ga
+    - lifecycle: public_ga1
     - tier: tier_0
     - product: Outreach
     - language: Golang
