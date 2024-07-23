@@ -1,0 +1,67 @@
+openapi: 3.0.0
+info:
+  title: gearbox
+  description: >
+    Gearbox Service is a repository for Org and User level settings
+  x-cortex-type: service
+  x-cortex-slack:
+    channels:
+      - name: ads-support
+        notificationsEnabled: false
+  x-cortex-owners:
+    - type: group
+      name: fnd-ads
+      provider: CORTEX
+  x-cortex-dependency:
+    - tag: mint
+    - tag: governance
+    - tag: outreach
+    - tag: database-provisioning-operator
+  x-cortex-tag: gearbox
+  x-cortex-git:
+    github:
+      repository: getoutreach/gearbox
+  x-cortex-oncall:
+    pagerduty:
+      id: PS2XXHK
+      type: SERVICE
+  x-cortex-link:
+    ## These are useful documentation links for this service. Please fill in the customLinks blodddck if you have additional documentation links.
+    ## name: The name of the link
+    ## type: Choose one type from (dashboard,documentation,healthcheck,logs,metrics,runbook)
+    ## url: The link url
+    ## description(optional): Description to this link
+    - name: Main dashboards
+      type: dashboard
+      url: https://app.datadoghq.com/dashboard/gme-tzb-c5j/terraform-gearbox
+    - name: API Docs
+      type: api_documentation
+      url: https://engdocs.outreach.cloud/github.com/getoutreach/gearbox#section-readme
+    ## <<Stencil::Block(customLinks)>>
+    ## <</Stencil::Block>>
+  x-cortex-custom-metadata:
+    app: gearbox
+    name: gearbox
+    repo: https://github.com/getoutreach/gearbox
+    tier: tier_0
+    framework: stencil
+    language: Golang
+    stencil_version: v1.38.1
+    golang_version: 1.22.0
+    cli: true
+    service: true
+    product: Outreach
+    lifecycle: public_ga
+    ## <<Stencil::Block(extraAliases)>>
+    ## <</Stencil::Block>>
+    reporting_team: fnd-ads
+    lintroller: gold
+  x-cortex-groups:
+    - lifecycle: public_ga1
+    - tier: tier_0
+    - product: Outreach
+    - language: Golang
+    - framework: stencil
+    - type: service
+    - type: cli
+    - engOrg: fnd
