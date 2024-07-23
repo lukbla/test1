@@ -26,7 +26,7 @@ info:
       id: PS2XXHK
       type: SERVICE
   x-cortex-link:
-    ## These are useful documentation links for this service. Please fill in the customLinks block if you have additional documentation links.
+    ## These are useful documentation links for this service. Please fill in the customLinks blodddck if you have additional documentation links.
     ## name: The name of the link
     ## type: Choose one type from (dashboard,documentation,healthcheck,logs,metrics,runbook)
     ## url: The link url
